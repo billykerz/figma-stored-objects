@@ -225,6 +225,56 @@ window.STORED_OBJECTS = {
           "vectorProperties": null,
           "ellipseProperties": null,
           "lineProperties": null
+        },
+        {
+          "id": "50475:108",
+          "name": "StatusIcon",
+          "type": "FRAME",
+          "visible": true,
+          "locked": false,
+          "opacity": 1,
+          "x": 1567,
+          "y": 35,
+          "width": 196,
+          "height": 196,
+          "rotation": 0,
+          "constrainProportions": false,
+          "constraints": {
+            "horizontal": "MAX",
+            "vertical": "MIN"
+          },
+          "fills": [],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "strokeCap": "NONE",
+          "strokeJoin": "MITER",
+          "dashPattern": [],
+          "cornerRadius": 0,
+          "cornerSmoothing": 0,
+          "effects": [],
+          "blendMode": "PASS_THROUGH",
+          "layoutProperties": {
+            "layoutMode": "NONE",
+            "layoutWrap": "NO_WRAP",
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "itemSpacing": 0,
+            "counterAxisSpacing": 0,
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisSizingMode": "AUTO"
+          },
+          "textProperties": null,
+          "componentProperties": null,
+          "starProperties": null,
+          "polygonProperties": null,
+          "vectorProperties": null,
+          "ellipseProperties": null,
+          "lineProperties": null
         }
       ]
     }
