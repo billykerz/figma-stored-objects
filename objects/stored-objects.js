@@ -19,8 +19,8 @@ window.STORED_OBJECTS = {
     "visible": true,
     "locked": false,
     "opacity": 1,
-    "width": 1278,
-    "height": 265,
+    "width": 1800,
+    "height": 2911,
     "rotation": 0,
     "constrainProportions": false,
     "constraints": {
@@ -72,7 +72,7 @@ window.STORED_OBJECTS = {
         "visible": true,
         "locked": false,
         "opacity": 1,
-        "width": 1278,
+        "width": 1800,
         "height": 265,
         "rotation": 0,
         "constrainProportions": false,
@@ -115,8 +115,8 @@ window.STORED_OBJECTS = {
           "counterAxisSpacing": 0,
           "primaryAxisAlignItems": "MIN",
           "counterAxisAlignItems": "CENTER",
-          "primaryAxisSizingMode": "AUTO",
-          "counterAxisSizingMode": "FIXED"
+          "primaryAxisSizingMode": "FIXED",
+          "counterAxisSizingMode": "AUTO"
         },
         "children": [
           {
@@ -125,7 +125,7 @@ window.STORED_OBJECTS = {
             "visible": true,
             "locked": false,
             "opacity": 1,
-            "width": 890,
+            "width": 1412,
             "height": 58,
             "rotation": 0,
             "constrainProportions": false,
@@ -157,24 +157,65 @@ window.STORED_OBJECTS = {
               "type": "TEXT",
               "characters": "OCT1 FAB FALL PROMO FD RICH PUSH",
               "fontName": {
-                "family": "Inter",
-                "style": "Regular"
+                "family": "SF Pro Text",
+                "style": "Bold"
               },
               "fontSize": 48,
               "letterSpacing": {
                 "unit": "PERCENT",
-                "value": 0
+                "value": -1
               },
               "lineHeight": {
-                "unit": "AUTO"
+                "unit": "PERCENT",
+                "value": 120.00000476837158
               },
               "textAlignHorizontal": "LEFT",
-              "textAlignVertical": "TOP",
-              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "textAlignVertical": "CENTER",
+              "textAutoResize": "HEIGHT",
               "textCase": "ORIGINAL",
               "textDecoration": "NONE",
               "paragraphIndent": 0,
               "paragraphSpacing": 0
+            }
+          },
+          {
+            "type": "FRAME",
+            "name": "StatusIcon",
+            "visible": true,
+            "locked": false,
+            "opacity": 1,
+            "width": 196,
+            "height": 196,
+            "rotation": 0,
+            "constrainProportions": false,
+            "constraints": {
+              "horizontal": "MAX",
+              "vertical": "MIN"
+            },
+            "fills": [],
+            "strokes": [],
+            "strokeWeight": 1,
+            "strokeAlign": "INSIDE",
+            "strokeCap": "NONE",
+            "strokeJoin": "MITER",
+            "dashPattern": [],
+            "cornerRadius": 0,
+            "cornerSmoothing": 0,
+            "effects": [],
+            "blendMode": "PASS_THROUGH",
+            "layoutProperties": {
+              "layoutMode": "NONE",
+              "layoutWrap": "NO_WRAP",
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 0,
+              "paddingBottom": 0,
+              "itemSpacing": 0,
+              "counterAxisSpacing": 0,
+              "primaryAxisAlignItems": "MIN",
+              "counterAxisAlignItems": "MIN",
+              "primaryAxisSizingMode": "AUTO",
+              "counterAxisSizingMode": "AUTO"
             }
           }
         ]
