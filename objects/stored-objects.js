@@ -14,14 +14,11 @@ window.STORED_OBJECTS = {
     }]
   },
   GENERIC_JOB_BOX: {
-    "id": "50439:169",
     "name": "H2401979",
     "type": "FRAME",
     "visible": true,
     "locked": false,
     "opacity": 1,
-    "x": -2417,
-    "y": 2321,
     "width": 1800,
     "height": 2911,
     "rotation": 0,
@@ -68,23 +65,13 @@ window.STORED_OBJECTS = {
       "primaryAxisSizingMode": "AUTO",
       "counterAxisSizingMode": "AUTO"
     },
-    "textProperties": null,
-    "componentProperties": null,
-    "starProperties": null,
-    "polygonProperties": null,
-    "vectorProperties": null,
-    "ellipseProperties": null,
-    "lineProperties": null,
     "children": [
       {
-        "id": "50439:170",
         "name": "Drop Box Header",
         "type": "FRAME",
         "visible": true,
         "locked": false,
         "opacity": 1,
-        "x": 0,
-        "y": 0,
         "width": 1800,
         "height": 265,
         "rotation": 0,
@@ -131,23 +118,13 @@ window.STORED_OBJECTS = {
           "primaryAxisSizingMode": "FIXED",
           "counterAxisSizingMode": "AUTO"
         },
-        "textProperties": null,
-        "componentProperties": null,
-        "starProperties": null,
-        "polygonProperties": null,
-        "vectorProperties": null,
-        "ellipseProperties": null,
-        "lineProperties": null,
         "children": [
           {
-            "id": "50439:171",
             "name": "#JOBNAME",
             "type": "TEXT",
             "visible": true,
             "locked": false,
             "opacity": 1,
-            "x": 113,
-            "y": 103.5,
             "width": 1412,
             "height": 58,
             "rotation": 0,
@@ -176,16 +153,10 @@ window.STORED_OBJECTS = {
             "strokeCap": "NONE",
             "strokeJoin": "MITER",
             "dashPattern": [],
-            "cornerRadius": null,
-            "cornerSmoothing": null,
-            "effects": [],
-            "blendMode": "PASS_THROUGH",
-            "layoutProperties": null,
             "textProperties": {
-              "type": "TEXT",
               "characters": "OCT1 FAB FALL PROMO FD RICH PUSH",
               "fontName": {
-                "family": "SF Pro Text",
+                "family": "Inter",
                 "style": "Bold"
               },
               "fontSize": 48,
@@ -195,47 +166,23 @@ window.STORED_OBJECTS = {
               },
               "lineHeight": {
                 "unit": "PERCENT",
-                "value": 120.00000476837158
+                "value": 120
               },
               "textAlignHorizontal": "LEFT",
               "textAlignVertical": "CENTER",
               "textAutoResize": "HEIGHT",
               "textCase": "ORIGINAL",
               "textDecoration": "NONE",
-              "textStyleId": "",
               "paragraphIndent": 0,
-              "paragraphSpacing": 0,
-              "fills": [
-                {
-                  "type": "SOLID",
-                  "visible": true,
-                  "opacity": 1,
-                  "blendMode": "NORMAL",
-                  "color": {
-                    "r": 1,
-                    "g": 1,
-                    "b": 1,
-                    "a": 1
-                  }
-                }
-              ]
-            },
-            "componentProperties": null,
-            "starProperties": null,
-            "polygonProperties": null,
-            "vectorProperties": null,
-            "ellipseProperties": null,
-            "lineProperties": null
+              "paragraphSpacing": 0
+            }
           },
           {
-            "id": "50439:172",
             "name": "StatusIcon",
             "type": "FRAME",
             "visible": true,
             "locked": false,
             "opacity": 1,
-            "x": 1567,
-            "y": 35,
             "width": 196,
             "height": 196,
             "rotation": 0,
@@ -268,14 +215,7 @@ window.STORED_OBJECTS = {
               "counterAxisAlignItems": "MIN",
               "primaryAxisSizingMode": "AUTO",
               "counterAxisSizingMode": "AUTO"
-            },
-            "textProperties": null,
-            "componentProperties": null,
-            "starProperties": null,
-            "polygonProperties": null,
-            "vectorProperties": null,
-            "ellipseProperties": null,
-            "lineProperties": null
+            }
           }
         ]
       }
