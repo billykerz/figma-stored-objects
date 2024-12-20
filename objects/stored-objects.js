@@ -16,33 +16,94 @@ window.STORED_OBJECTS = {
   GENERIC_JOB_BOX: {
     "type": "FRAME",
     "name": "Generic Job Box",
-    "width": 1800,
-    "height": 2911,
+    "visible": true,
+    "locked": false,
+    "opacity": 1,
+    "width": 1278,
+    "height": 265,
+    "rotation": 0,
+    "constrainProportions": false,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      }
+    ],
+    "strokes": [],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "strokeCap": "NONE",
+    "strokeJoin": "MITER",
+    "dashPattern": [],
+    "cornerRadius": 0,
+    "cornerSmoothing": 0,
+    "effects": [],
+    "blendMode": "PASS_THROUGH",
     "layoutProperties": {
       "layoutMode": "VERTICAL",
       "layoutWrap": "NO_WRAP",
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "itemSpacing": 0,
+      "counterAxisSpacing": 0,
       "primaryAxisAlignItems": "MIN",
       "counterAxisAlignItems": "CENTER",
       "primaryAxisSizingMode": "AUTO",
       "counterAxisSizingMode": "AUTO"
     },
-    "fills": [{
-      "type": "SOLID",
-      "visible": true,
-      "opacity": 1,
-      "blendMode": "NORMAL",
-      "color": {
-        "r": 1,
-        "g": 1,
-        "b": 1
-      }
-    }],
     "children": [
       {
         "type": "FRAME",
         "name": "Drop Box Header",
-        "width": 1800,
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "width": 1278,
         "height": 265,
+        "rotation": 0,
+        "constrainProportions": false,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.2514811158180237,
+              "g": 0.2514811158180237,
+              "b": 0.2514811158180237,
+              "a": 1
+            }
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "strokeCap": "NONE",
+        "strokeJoin": "MITER",
+        "dashPattern": [],
+        "cornerRadius": 0,
+        "cornerSmoothing": 0,
+        "effects": [],
+        "blendMode": "PASS_THROUGH",
         "layoutProperties": {
           "layoutMode": "HORIZONTAL",
           "layoutWrap": "NO_WRAP",
@@ -51,31 +112,70 @@ window.STORED_OBJECTS = {
           "paddingTop": 75,
           "paddingBottom": 75,
           "itemSpacing": 10,
+          "counterAxisSpacing": 0,
           "primaryAxisAlignItems": "MIN",
-          "counterAxisAlignItems": "CENTER"
+          "counterAxisAlignItems": "CENTER",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "FIXED"
         },
-        "fills": [{
-          "type": "SOLID",
-          "color": {
-            "r": 0.25,
-            "g": 0.25,
-            "b": 0.25
-          }
-        }],
         "children": [
           {
             "type": "TEXT",
             "name": "#JOBNAME",
-            "characters": "OCT1 FAB FALL PROMO FD RICH PUSH",
-            "fontSize": 48,
-            "fills": [{
-              "type": "SOLID",
-              "color": {
-                "r": 1,
-                "g": 1,
-                "b": 1
+            "visible": true,
+            "locked": false,
+            "opacity": 1,
+            "width": 890,
+            "height": 58,
+            "rotation": 0,
+            "constrainProportions": false,
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                }
               }
-            }]
+            ],
+            "strokes": [],
+            "strokeWeight": 1,
+            "strokeAlign": "OUTSIDE",
+            "strokeCap": "NONE",
+            "strokeJoin": "MITER",
+            "dashPattern": [],
+            "textProperties": {
+              "type": "TEXT",
+              "characters": "OCT1 FAB FALL PROMO FD RICH PUSH",
+              "fontName": {
+                "family": "Inter",
+                "style": "Regular"
+              },
+              "fontSize": 48,
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "textCase": "ORIGINAL",
+              "textDecoration": "NONE",
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0
+            }
           }
         ]
       }
